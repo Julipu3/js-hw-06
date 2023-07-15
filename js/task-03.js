@@ -20,8 +20,5 @@ const imageList = images
 });
 console.log(images.join(" "));
 
-
-
-// imagesItem.insertAdjacentHTML("beforeend", imageList);
-imagesItem.insertAdjacentHTML("beforeend", imageList);
+imagesItem.insertAdjacentHTML("beforeend", imageList.join(" "));
 

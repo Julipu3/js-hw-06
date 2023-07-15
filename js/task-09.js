@@ -9,7 +9,8 @@ const spanEl = document.querySelector('.color');
 const btnEl = document.querySelector('.change-color');
 console.log(getRandomHexColor())
 btnEl.addEventListener('click', () => {
-  spanEl.textContent = getRandomHexColor();
-  duvEl.parentNode.style.backgroundColor = getRandomHexColor();
+  const randomColor = getRandomHexColor();
+  spanEl.textContent = randomColor;
+  duvEl.parentNode.style.backgroundColor = randomColor;
 })
 
