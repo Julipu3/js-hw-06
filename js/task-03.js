@@ -14,9 +14,10 @@ const images = [
 ];
 
 const imagesItem = document.querySelector('.gallery');
+
 const imageList = images
 .map(image => {
-   return `<li class='gallery-item'><img src = ${image.url} alt = ${image.alt} width=360 class='image-gallery'</li>`
+   return `<li class='gallery-item'><img src = ${image.url} alt = ${image.alt} width=360 height=200 class='image-gallery'</li>`
 });
 console.log(images.join(" "));
 
